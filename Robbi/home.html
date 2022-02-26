@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Bebas Strees </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+
+    <!-- BODY -->
+
+    <style>
+        .body {
+
+            position: relative;
+            /* height: 100vh; */
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            z-index: 0;
+
+            /* background: linear-gradient(135deg, #d5f0ee, #fdc9c6);
+            background-size: contain; */
+
+            /* background-image: url("./Background/5590822.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed; */
+        }
+
+        .body::before {
+            content: "";
+            background-image: url("./Background/pexels-3.jpg");
+            background-size: contain;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            opacity: 0.47;
+
+        }
+    </style>
+
+
+    <!-- HEADER -->
+
+    <style>
+        .container-fluid {
+            /* background: #cecbcb; */
+            color: #333333;
+
+            font-family: 'Changa', sans-serif;
+            font-weight: bolder;
+            text-align: center;
+
+            margin-top: 10px;
+
+            z-index: 100;
+        }
+
+        .header {
+            background-color: #1ea3b2;
+            color: white;
+
+            padding: 10px;
+
+            border-radius: 5px;
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* height: 60px; */
+
+            box-shadow: 9px 9px 9px 2px rgb(0 0 0 / 80%);
+        }
+
+        .header2 {
+            background-color: #e2eef0;
+            color: rgb(80, 73, 73);
+
+            margin-top: 10px;
+            padding: 10px;
+
+            border-radius: 18px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 60px;
+        }
+
+        .btn-light {
+            color: rgb(14, 76, 117);
+            background-color: #f8f9fa;
+            border-color: #f8f9fa;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .alert-success {
+            color: #0f5132;
+            background-color: #86c3a7;
+            border-color: #badbcc;
+        }
+    </style>
+
+    <!-- CONTENT 1 -->
+
+    <style>
+        .content1-wrap {
+            display: flex;
+            justify-content: center;
+        }
+
+        .content1 {
+            background-color: #fada5c;
+            color: rgb(77, 75, 75);
+
+            /* width: 97vw;
+            height: 30vw;  */
+
+            margin-top: 20px;
+
+            border-radius: 9px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .content1-kiri {
+            align-items: center;
+        }
+
+        .img-content1 {
+            width: 48vw;
+
+            margin-left: 7px;
+            margin-right: 53px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            border-radius: 10px;
+        }
+    </style>
+
+    <!-- CONTENT 2 -->
+
+    <style>
+        /* CONTENT */
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 900;
+        }
+
+        .content-2 {
+            margin-top: 34px;
+        }
+
+        .icon-content-2 {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .icon {
+            width: 107px;
+            height: 79px;
+
+            color: #3195d2;
+        }
+
+        .icon2 {
+            width: 49px;
+            height: 37px;
+            color: yellow;
+            transform: translate(-102px, -1px);
+            ;
+        }
+
+        .icon3 {
+            height: 39px;
+            width: 23px;
+            color: yellow;
+            transform: translate(-78px, 23px);
+        }
+    </style>
+
+    <!-- CONTENT 3 -->
+
+    <style>
+        .content-3 {
+            background-color: #cad0d1;
+            /* opacity: 0.5; */
+
+            border-radius: 10px;
+
+            margin: 10px;
+            padding-bottom: 39px;
+        }
+
+        .isi-content-3-1 {
+            padding-top: 43px;
+        }
+
+        .isi-content-3-1-bawah {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 100px;
+            justify-content: center;
+        }
+
+        .textbox {
+            background-color: rgb(114, 208, 231);
+            /* position: absolute; */
+
+            width: 379px;
+            height: 40%;
+            /* opacity: 0.8; */
+
+            top: -12px;
+            left: 35px;
+            margin-left: 29px;
+
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+            border: 2px solid silver;
+            border-radius: 10px;
+        }
+
+        .isi-content-3-1-bawah-2 {
+            background-color: #e7f5f5;
+
+            text-align: initial;
+            font-size: 14px;
+
+            padding: 18px;
+            margin: -2px;
+            margin-top: 107px;
+            margin-right: 59px;
+            height: fit-content;
+
+            border-radius: 10px;
+        }
+    </style>
+
+    <!-- CONTENT 4 -->
+
+    <style>
+        .btn-light:hover {
+            background-color: #dddbdb;
+
+            border: 1px solid black;
+            border-radius: 10px;
+
+            padding: 4px;
+            margin-left: 25px;
+            margin-right: 33px;
+        }
+
+        .content4-carousel-item {
+            width: 343px;
+            /* height: 348px; */
+            margin-top: 61px;
+            margin-right: auto;
+            margin-left: auto
+        }
+
+        .carousel-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 700px;
+            /* height: 300px; */
+            margin: auto;
+        }
+    </style>
+
+    <!-- CONTENT 5 -->
+
+    <style>
+        .content5-card {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 95px 30px;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .truncate span.trimmed {
+            display: none;
+        }
+
+        .read-more .more:before {
+            content: 'Read More';
+        }
+
+        .showAll .truncate span.morePoints {
+            display: none;
+        }
+
+        .showAll .truncate span.trimmed {
+            display: inline;
+        }
+
+        .showAll .read-more .more:before {
+            content: 'Read Less';
+        }
+
+        a {
+            color: #83888f;
+            text-decoration: none;
+        }
+
+        .rounded {
+            border-radius: 1.25rem !important;
+        }
+    </style>
+
+    <!-- CONTENT 6 -->
+
+    <style>
+        .content6 {
+            grid-template-columns: repeat(2, auto);
+            gap: 0;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .isi-blog {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 582px;
+            height: 186px;
+            margin: auto;
+        }
+
+        .row {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+
+        .desc-blog {
+            font-size: 12px;
+            padding-left: 12px;
+            text-align: left;
+        }
+    </style>
+
+    <!-- DISCLAIMER -->
+
+    <style>
+        .disclaimer {
+            background-color: #e25b5c;
+
+            text-align: center;
+
+            min-height: 150px;
+            padding: 35px 0;
+            color: #fff;
+            position: relative;
+            z-index: 999;
+        }
+    </style>
+
+    <!-- FEEDBACK -->
+
+    <style>
+        .img-content {
+
+            /* background-image: url("https://images.unsplash.com/photo-1512969272518-257455e52b04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"); */
+            background-size: cover;
+            color: rgb(94, 89, 89);
+
+            text-align: center;
+
+            width: 100%;
+            height: 100%;
+
+            border-radius: 10px;
+            border: 1px solid rgb(184, 173, 173);
+
+            /*  display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+
+        .isi-content {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 30px 30px;
+
+            justify-content: space-evenly;
+            align-items: center;
+
+            padding-top: 10px;
+        }
+
+        .subject {
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+
+            border-radius: 10px;
+        }
+    </style>
+
+    <!-- FOOTER -->
+
+    <style>
+        .footer-copyright {
+            background: #f3d457;
+        }
+    </style>
+
+    <!-- STICKY WA -->
+
+    <style>
+        .float {
+            position: fixed;
+            width: 81px;
+            height: 81px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+    </style>
+
+    <!-- MEDIA QUERY -->
+
+    <style>
+        @media screen and (max-width: 576px) {
+            .float {
+                background-color: #0e2c19;
+                color: rgb(207, 192, 192);
+                width: 61px;
+                height: 61px;
+            }
+
+            .fa {
+                transform: translateY(-10px);
+            }
+
+            .header {
+                background: rgb(6, 185, 240);
+            }
+        }
+    </style>
+
+</head>
+
+
+<body class="body">
+
+    <div class="container-fluid">
+
+        <!-- HEADER 1 -->
+
+        <div class="header" border-radius: 7px;>
+
+            <div style="padding-top: 14px">
+                <p style="font-size: 28px;"> Masih takut bayar konseling mahal, ini ada diskon !!! </p>
+            </div>
+
+            <div style="padding-top: 14px; color:rgb(54, 52, 52)">
+                <p> Bebaskan hidup dari beban pikiran </p>
+            </div>
+
+            <button type="button" class="btn-light">Gas lah daftarr !!! Senin Harga Naik</button>
+
+        </div>
+
+        <!-- HEADER 2 -->
+        <!-- NAVBAR -->
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="_blank">
+                        <img style="width: 68px;" src="./Img/Logo/cat-3.png">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Layanan Kami
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#layanankami">Mentoring</a></li>
+                                    <li><a class="dropdown-item" href="#layanankami">webinar</a></li>
+                                    <li><a class="dropdown-item" href="#layanankami">Konseling</a></li>
+                                    <li><a class="dropdown-item" href="#layanankami">Tes Psikologi</a></li>
+                                    <li><a class="dropdown-item" href="#layanankami">Kelas Online</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Premium</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimoni">Testimoni</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#feedback">Feedback</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Lokasi.html">Lokasi Psikolog</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <a href="./login.html">
+                <button type="button" class="btn btn-warning" style="margin-left: 149px;
+            width: 77px;">
+                    Login
+                </button>
+            </a>
+        </div>        
+
+        <br>
+
+        <!-- BREADCRUMB -->
+
+        <!-- <div class="alert alert-success"> -->
+        <div style="display: flex; justify-content: center;">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+            </nav>
+        </div>
+        <!-- </div> -->
+
+        <!-- ALERT -->
+
+        <div class="alert alert-success">
+            <marquee direction="left" scrollamount="5" text-align="center">
+                <p style="font-size: 20px; margin: 0;">JANGAN LUPA DAFTAR !!!</p>
+            </marquee>
+        </div>
+
+        <!-- CONTENT 1 -->
+
+        <div class="content1-wrap">
+
+            <div class="content1">
+
+                <div class="content1-kiri" style="margin: 70px;">
+
+                    <div>
+                        <h2> <b> Masalah kesehatan mental meningkat <u style="color: red" c>dua kali</u> lipat selama
+                                pandemi
+                            </b>
+                        </h2>
+                    </div>
+
+                    <div>
+                        <p>
+                            Tanpa kamu sadari, kamu bisa jadi salah satunya.
+                            Yuk, bergabung bersama 25,000+ orang lainnya untuk
+                            belajar menjaga kesehatan mental bersama mentor Satu Persen.
+                        </p>
+                    </div>
+
+                    <div>
+                        <button type="button" class="btn btn-success"><a href="./login.html" style="color: #ffffff;">
+                                Daftar Kuy </a></button>
+                    </div>
+
+                </div>
+
+                <img class="img-content1" src="./Img/Content 1/3731957.jpg">
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <!-- CONTENT 2 -->
+
+        <div class="content-2">
+
+            <div class="container">
+                <h3>Et dah... Masih Kaga Percaya </h3>
+                <h3>Ni Buktinya </h3>
+            </div>
+            <br>
+            <br>
+
+            <div class="icon-content-2">
+
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-hearts icon" viewBox="0 0 16 16" style="transform: translate(31px, 3px);">
+                        <path fill-rule="evenodd"
+                            d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-balloon-heart-fill icon2" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386Z" />
+                    </svg>
+                    <h2>1 juta ++</h2>
+                    <h5>Follower Sosmed, InysaAllah</h5>
+                </div>
+
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-book icon" viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                    </svg>
+                    <h2>1.000</h2>
+                    <h5>Konten Edukatif Dengan Berbagai Topik di Sosial Media, InsyaAllah</h5>
+                </div>
+
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-heart-pulse-fill icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475ZM.879 8C-2.426 1.68 4.41-2 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z" />
+                    </svg>
+                    <h2>10.000</h2>
+                    <h5>Sesi Konseling & Mentoring Terlaksana Dalam Setahun, InsyaAllah</h5>
+                </div>
+
+                <div>
+                    <div style="transform: translateX(20px);">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-check-fill icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                            <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-heart-fill icon3" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                        </svg>
+                    </div>
+                    <h2>10.000</h2>
+                    <h5>Orang Menuju #HidupSeutuhnya</h5>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <!-- CONTENT 3 -->
+
+        <div class="content-3">
+
+            <div class="isi-content-3-1">
+
+                <div>
+                    <h2> Kami Janji,
+                        <br>
+                        Layanan Kami Akan...
+                    </h2>
+                </div>
+                <br>
+                <br>
+
+                <div class="isi-content-3-1-bawah">
+
+                    <div>
+
+                        <div class="textbox">
+
+                            <div class="content">
+
+                                <h3 style="padding-top: 21px;">Anonim</h3>
+
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+                                    <div class="carousel-inner" data-bs-interval="5000">
+                                        <div class="carousel-item active">
+                                            <p>
+                                                Saya Happy Si Sekarang
+                                            </p>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <p>
+                                                Merasa Lebih Baik
+                                            </p>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <p>
+                                                Lega Bisa Cerita Tanpa Beban
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" style="width: 244px;
+                                        border-radius: -24px;
+                                        margin: auto;" data-bs-ride="carousel">
+
+                                    <div class="carousel-inner" data-bs-interval="5000">
+
+                                        <div class="carousel-item active">
+                                            <img style="border-radius: 10px" src="./Img/Content 3/3724894.jpg"
+                                                class="d-block w-100 card">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img style="border-radius: 10px" src="./Img/Content 3/4022164.jpg"
+                                                class="d-block w-100 card">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img style="border-radius: 10px" src="./Img/Content 3/4111609 .jpg"
+                                                class="d-block w-100 card">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <button type="button" class="btn btn-warning" style="margin-top: 183px; background-color: #ffce3b;
+                        border-radius: 14px;">
+                            <a href="./login.html" style="color: #000000;">
+                                Warning !!!
+                                Daftar Dah Buruan
+                            </a>
+                        </button>
+
+                    </div>
+
+                    <div class="isi-content-3-1-bawah-2">
+                        <ul style="font-size: 20px;">
+                            <li>Mengurangi kusut pikrianmu</li>
+                            <li>Mendengarkan dan mengerti kamu</li>
+                            <li>Membimbing dengan cara yang nyaman denganmu</li>
+                            <li>Menjaga privasimu</li>
+                            <li>Menemani kamu yang merasa sendirian</li>
+                            <li>Memberimu motivasi untuk hidup lebih bahagia</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <!-- CONTENT 4 -->
+        <!-- LAYANAN -->
+
+        <div>
+
+            <div id="layanankami">
+                <h3 style="font-size: 33px;">Layanan Kami</h3>
+            </div>
+            <br>
+
+            <!-- PILIHAN LAYANAN -->
+
+            <div>
+                <button type="button" class="btn btn-light" style="font-size: 20px;">Mentoring</button>
+                <button type="button" class="btn btn-light" style="font-size: 20px;">Webinar</button>
+                <button type="button" class="btn btn-light" style="font-size: 20px;">Konseling</button>
+                <button type="button" class="btn btn-light" style="font-size: 20px;">Tes Psikologi</button>
+                <button type="button" class="btn btn-light" style="font-size: 20px;">Kelas Online</button>
+            </div>
+
+            <!-- CAROUSEL LAYANAN KAMI -->
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+
+                <!-- LAYANAN KAMI -->
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item 
+                    <!-- active -->
+                    " data-bs-interval="100000">
+
+                        <div class="carousel-wrap">
+
+                            <div class="content4-carousel-item" style="width: 278px; height: 300px">
+                                <img style="border-radius: 15px; margin-top: 43px;" src="./Img/Content 4/person-1.jpg"
+                                    class="d-block w-100">
+                            </div>
+
+                            <div style="margin-left: 35px;">
+
+                                <h3> Konsultasi dengn Mentor</h3>
+                                <p> Banyak masalah ? Gak perlu bingung! Ceritakan Masalahmu dan Dapatkan
+                                    Solusinya
+                                </p>
+                                <button type="button" class="btn btn-warning">Selengkapnya</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="100000">
+
+                        <div class="carousel-wrap">
+
+                            <div class="content4-carousel-item" style="width: 243px; height: 300px">
+                                <img style="border-radius: 15px; margin-top: 43px;" src="./Img/Content 4/person-2.jpg"
+                                    class="d-block w-100">
+                            </div>
+
+                            <div>
+
+                                <h3> Webinar </h3>
+                                <p> Kembangkan dirimu agar menjadi lebih baik
+                                </p>
+                                <button type="button" class="btn btn-warning">Selengkapnya</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="100000">
+
+                        <div class="carousel-wrap">
+
+                            <div class="content4-carousel-item" style="width: 243px; height: 300px">
+                                <img style="border-radius: 15px; margin-top: 43px;" src="./Img/Content 4/person-4.jpg"
+                                    class="d-block w-100">
+                            </div>
+
+                            <div>
+
+                                <h3> Konsultasi Psikolog </h3>
+                                <p> Jangan pendam semua masalahmu
+                                </p>
+                                <button type="button" class="btn btn-warning">Selengkapnya</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="100000">
+
+                        <div class="carousel-wrap">
+
+                            <div class="content4-carousel-item" style="width: 243px; height: 300px">
+                                <img style="border-radius: 15px; margin-top: 43px;" src="./Img/Content 4/person-3.jpg"
+                                    class="d-block w-100">
+                            </div>
+
+                            <div>
+
+                                <h3> Tes Psikolog </h3>
+                                <p> Cari tahu bakat terpendam-mu
+                                </p>
+                                <button type="button" class="btn btn-warning">Selengkapnya</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="100000">
+
+                        <div class="carousel-wrap">
+
+                            <div class="content4-carousel-item" style="width: 243px; height: 300px">
+                                <img style="border-radius: 15px; margin-top: 43px;"
+                                    src="./Img/Content 4/person-online-meeting.jpg" class="d-block w-100">
+                            </div>
+
+                            <div>
+
+                                <h3> Kelas Online </h3>
+                                <p> Selesaikan masalahmu spesifikmu dengan emntor atau psikolog
+                                </p>
+                                <button type="button" class="btn btn-warning">Selengkapnya</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BUTTON -->
+
+                <div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+
+        <!-- CONTENT 5 -->
+        <!-- TESTIMONI -->
+
+        <div style="margin-bottom: 38px;">
+
+            <div id="testimoni">
+                <h3>Testimoni</h3>
+            </div>
+            <br>
+
+            <div class="content5-card">
+
+                <div class="card border-warning mb-3 rounded" style="max-width: 12rem; height: 18rem;">
+                    <div class="card-header">
+                        <img style="border-radius: 15px; margin-top: 3px;" src="./Img/Testimoni/person-1.jpg"
+                            class="d-block w-100 rounded-circle">
+                    </div>
+                    <div class="card-body">
+
+                        <h6 class="card-title">Anonim 1, 20 Tahun, Mahasiswa</h6>
+                        <p class="card-text truncate"
+                            style="margin-bottom: 11px; font-size: 11px; background-color: white;">
+                            Saya merasa terbantu dalam hal memandang masa depan dan juga
+                            tentang tujuan hidup saya. Dulu saya sering overthinking, membandingkan pace
+                            hidup saya dengan orang lain. Namun, dengan webinar ini, membuat saya sadar
+                            bahwa setiap orang memiliki pace dan jalannya masing-masing.
+                        </p>
+
+                    </div>
+
+                    <button type="button" class="btn-warning" style="border-radius: 24px; z-index: 1;"
+                        data-bs-toggle="modal" data-bs-target="#testi1">
+                        Detail Foto
+                    </button>
+
+                </div>
+
+                <div class="card border-warning mb-3 rounded" style="max-width: 12rem; height: 18rem;">
+                    <div class="card-header">
+                        <img style="border-radius: 15px; margin-top: 3px;" src="./Img/Testimoni/person-2.jpg"
+                            class="d-block w-100 rounded-circle">
+                    </div>
+                    <div class="card-body">
+
+                        <h6 class="card-title">Anonim 2, 21 Tahun, Mahasiswa</h6>
+                        <p class="card-text truncate"
+                            style="margin-bottom: 11px; font-size: 11px; background-color: white;">
+                            Dengan mengukuti layanan ini, saya mendapat arahan,
+                            tentang apa yang bisa saya lakukan selanjutnya, tahu apa yang mau dicapai,
+                            tahu langkah-langkah untuk mencapai ap ayang dituju. Saya belajar menerima
+                            keadaan, mengambil makna positif dari setiap kejadian.
+                        </p>
+
+                    </div>
+
+                    <button type="button" class="btn-warning" style="border-radius: 24px; z-index: 1;"
+                        data-bs-toggle="modal" data-bs-target="#testi2">
+                        Detail Foto
+                    </button>
+
+                </div>
+
+                <div class="card border-warning mb-3 rounded" style="max-width: 12rem; height: 18rem;">
+                    <div class="card-header">
+                        <img style="border-radius: 15px; margin-top: 3px;" src="./Img/Testimoni/person-3.jpg"
+                            class="d-block w-100 rounded-circle">
+                    </div>
+                    <div class="card-body">
+
+                        <h6 class="card-title">Anonim 3, 43 Tahun, Software Tester</h6>
+                        <p class="card-text truncate"
+                            style="margin-bottom: 11px; font-size: 11px; background-color: white;">
+                            Saya jadi tahu apa yang menjadi akar penyebab permasalahan saya,
+                            dan juga mendapat solusi untuk mengatasinya. Solusi permasalahan saya, dan strategi
+                            coping yang diberikan banyak, serta bisa dengan sangta mudah diaplikasikan di kehidupan
+                            sehari-hari.
+                        </p>
+
+                    </div>
+
+                    <button type="button" class="btn-warning" style="border-radius: 24px; z-index: 1;"
+                        data-bs-toggle="modal" data-bs-target="#testi3">
+                        Detail Foto
+                    </button>
+
+                </div>
+
+                <div class="card border-warning mb-3 rounded" style="max-width: 12rem; height: 18rem;">
+                    <div class="card-header">
+                        <img style="border-radius: 15px; margin-top: 3px;" src="./Img/Testimoni/person-4.jpg"
+                            class="d-block w-100 rounded-circle">
+                    </div>
+                    <div class="card-body">
+
+                        <h6 class="card-title">Anonim 4, 23 Tahun, Mahasiswa</h6>
+                        <p class="card-text truncate"
+                            style="margin-bottom: 11px; font-size: 11px; background-color: white;">
+                            Webinar yang diberikan, bagus banget, karena dampaknya,
+                            bener-bener terasa di aku. aku jadi tahu prioritas,
+                            mana yang harus dikerjakan lebih dahulu, dan
+                            mana yang sepertinya perlu di hold, akibatnya aku jadi lebih produktif.
+                            Webinar ini juga
+                            bisa di tonton berkali=kali. worksheetnya juga banyak banget bikin hari ga gabut. yang
+                            pasti sangat bermanfaat.
+                        </p>
+
+                    </div>
+
+                    <button type="button" class="btn-warning" style="border-radius: 24px; z-index: 1;"
+                        data-bs-toggle="modal" data-bs-target="#testi4">
+                        Detail Foto
+                    </button>
+                </div>
+
+                <div class="card border-warning mb-3 rounded" style="max-width: 12rem; height: 18rem;">
+                    <div class="card-header">
+                        <img style="border-radius: 15px; margin-top: 3px;" src="./Img/Testimoni/person-5.jpg"
+                            class="d-block w-100 rounded-circle">
+                    </div>
+                    <div class="card-body">
+
+                        <h6 class="card-title">Anonim 5, 38 Tahun, Guru</h6>
+                        <p class="card-text truncate"
+                            style="margin-bottom: 11px; font-size: 11px; background-color: white; padding-bottom: 15px;">
+                            Setelah mengikuti berbagai program yang diberikan, saya
+                            merasa hidup saya lebih berharga.
+                            Terdapat perubahan diri yang jauh lebih baik dari sebelumnya.
+                        </p>
+
+                    </div>
+
+                    <button type="button" class="btn-warning" style="border-radius: 24px; z-index: 1;"
+                        data-bs-toggle="modal" data-bs-target="#testi5">
+                        Detail Foto
+                    </button>
+                </div>
+
+                <div class="card border-warning mb-3 rounded" style="max-width: 12rem; height: 18rem;">
+                    <div class="card-header">
+                        <img style="border-radius: 15px; margin-top: 3px;" src="./Img/Testimoni/person-6.jpg"
+                            class="d-block w-100 rounded-circle">
+                    </div>
+                    <div class="card-body">
+
+                        <h6 class="card-title">Anonim 6, 18 Tahun, Pelajar</h6>
+                        <p class="card-text truncate"
+                            style="margin-bottom: 11px; font-size: 11px; background-color: white; padding-bottom: 15px;">
+                            Setelah mengikuti berbagai program yang diberikan, saya merasa
+                            menemukan jati diri saya yang tadinya hilang setelah di tinggal
+                            pasangan saya dengan yang lain. sebelumnya, dunia akademis saya
+                            berantakan, tidak akrab dengan orang tua dan banyak lainnya.
+                        </p>
+
+                    </div>
+
+                    <button type="button" class="btn-warning" style="border-radius: 24px; z-index: 1;"
+                        data-bs-toggle="modal" data-bs-target="#testi6">
+                        Detail Foto
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MODAL Testi -->
+
+        <!-- Modal 1 -->
+
+        <div class="modal fade" id="testi1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="./Img/Testimoni/person-1.jpg" style="width: 100%; border-radius: 10px;">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+
+        <div class="modal fade" id="testi2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="./Img/Testimoni/person-2.jpg" style="width: 100%; border-radius: 10px;">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+
+        <div class="modal fade" id="testi3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="./Img/Testimoni/person-3.jpg" style="width: 100%; border-radius: 10px;">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 4 -->
+
+        <div class="modal fade" id="testi4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="./Img/Testimoni/person-4.jpg" style="width: 100%; border-radius: 10px;">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 5 -->
+
+        <div class="modal fade" id="testi5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="./Img/Testimoni/person-5.jpg" style="width: 100%; border-radius: 10px;">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 6 -->
+
+        <div class="modal fade" id="testi6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="./Img/Testimoni/person-6.jpg" style="width: 100%; border-radius: 10px;">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+
+        <!-- CONTENT 6 -->
+        <!-- BLOG -->
+
+        <div class="container" id="blog">
+
+            <div style="text-align: center;">
+                <h3>Blog</h3>
+            </div>
+            <br>
+
+            <!-- BAGIAN BLOG -->
+
+            <div class="content6 row">
+
+                <!-- ISI BLOG -->
+
+                <div class="isi-blog col">
+
+                    <div class="content4-carousel-item" style="width: 278px; height: 300px">
+                        <img style="border-radius: 15px; margin-top: 43px;"
+                            src="https://kalaliterasi.com/wp-content/uploads/2021/12/images.jpeg" class="d-block w-100">
+                    </div>
+
+                    <div class="desc-blog">
+
+                        <div>
+                            <p> Pengaplikasian Stoikisme</p>
+                            <p class="truncate">
+                                Fitur utama Stoikisme adalah menerima tawaran kehidupan
+                                kartu kepada Anda, hanya mengkhawatirkan apa yang dapat
+                                Anda kendalikan. Menekankan tentang sesuatu yang tidak
+                                dapat Anda ubah adalah pemborosan waktu dan energi yang
+                                berharga.
+                            </p>
+                        </div>
+                        <br>
+
+                        <button type="button" class="btn-warning" style="border-radius: 24px;" data-bs-toggle="modal"
+                            data-bs-target="#blog1">
+                            Selengkapnya
+                        </button>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="isi-blog col">
+
+                    <div class="content4-carousel-item" style="width: 278px; height: 300px">
+                        <img style="border-radius: 15px; margin-top: 43px;"
+                            src="https://images.soco.id/911-stoa1.jpg.jpeg" class="d-block w-100">
+                    </div>
+
+                    <div class="desc-blog">
+
+                        <div>
+                            <p> Stoikisme</p>
+                            <p class="truncate"> Orang-orang Stoik percaya bahwa emosi negatif yang menghancurkan
+                                manusia
+                                dihasilkan dari keputusan yang salah,
+                                dan bahwa seorang sophis, yaitu orang yang memiliki
+                                "kesempurnaan moral dan intelektual,"
+                                tidak akan pernah mengalami emosi-emosi yang merusak kebahagiaan,
+                                misalnya marah berlebihan, panik berlebihan, sedih berlebihan, dsb
+                            </p>
+                        </div>
+                        <br>
+
+                        <button type="button" class="btn-warning" style="border-radius: 24px;" data-bs-toggle="modal"
+                            data-bs-target="#blog2">
+                            Selengkapnya
+                        </button>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="isi-blog col">
+
+                    <div class="content4-carousel-item" style="width: 278px; height: 300px">
+                        <img style="border-radius: 15px; margin-top: 43px;"
+                            src="https://i.ytimg.com/vi/xc6s24C09dY/mqdefault.jpg" class="d-block w-100">
+                    </div>
+
+                    <div class="desc-blog">
+
+                        <div>
+                            <p> Stoikisme, Filosofi Anti Cemas</p>
+                            <p class="truncate">
+                                Stoikisme adalah kerangka berpikir dalam hidup yang sangat
+                                berguna terutama ketika menghadapi situasi yang sangat
+                                menantang atau stress, kecemasan atau amarah. Stoikisme
+                                membantu kita tetap tenang sehingga mampu berpikir jernih,
+                                mengambil keputusan terbaik dan menghindari stress.
+                            </p>
+                        </div>
+                        <br>
+
+                        <button type="button" class="btn-warning" style="border-radius: 24px;" data-bs-toggle="modal"
+                            data-bs-target="#blog3">
+                            Selengkapnya
+                        </button>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="isi-blog col">
+
+                    <div class="content4-carousel-item" style="width: 278px; height: 300px">
+                        <img style="border-radius: 15px; margin-top: 43px;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoChcnC0Kh2iSfZvfBa_Yk-QaSs8jgZLhlsA&usqp=CAU"
+                            class="d-block w-100">
+                    </div>
+
+                    <div class="desc-blog">
+
+                        <div>
+                            <p> Pengalaman Menjadi Stoik</p>
+                            <p class="truncate">
+                                Kali ini kita bakal bahas Stoikisme,
+                                Pemikiran yang udah saya jalani kurang lebih 5 tahun belakangan ini.
+                            </p>
+                        </div>
+                        <br>
+
+                        <button type="button" class="btn-warning" style="border-radius: 24px;" data-bs-toggle="modal"
+                            data-bs-target="#blog4">
+                            Selengkapnya
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+
+        <!-- DISCLAIMER -->
+
+        <div class="alert alert-danger disclaimer" role="alert" style="z-index: 0;">
+
+            <h3> Disclaimer </h3>
+
+            <p>Jika Anda sedang mengalami krisis psikologis yang mengancam hidup Anda,
+                layanan ini tidak direkomendasikan.
+            </p>
+
+            <p>
+                Silakan menghubungi 119.
+            </p>
+
+        </div>
+        <br>
+        <br>
+
+        <!-- FEEDBACK -->
+
+        <form id="feedback" class="row g-3" style="padding: 57px; border-radius: 14px; background-color: #96cadb;">
+
+            <div class="col-md-6" style="text-align: center;">
+                Email : <a style="color: rgb(235 32 51);" href="mailto:achmadrobbi@ymail.com">achmadrobbi@ymail.com</a>
+            </div>
+
+            <div class="col-md-6" style="text-align: center;">
+                Linked.in : My <a target="_blank" style="color: rgb(235 32 51);"
+                    href="https://www.linkedin.com/in/achmad-robbi-s-sos-349b1212a/">
+
+                    Linked.in </a>
+            </div>
+            <br>
+
+            <div class="col-12" style="text-align: center; margin-top: 27px; margin-bottom: 17px;">
+                <label> Rate yang jujur ya hehe <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z" />
+                    </svg>
+                </label>
+                <br> &nbsp
+
+                <div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="rate" id="1" disabled>
+                        <label class="form-check-label" for="inlineCheckbox1">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="rate" id="2" disabled>
+                        <label class="form-check-label" for="inlineCheckbox1">2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="rate" id="3" disabled>
+                        <label class="form-check-label" for="inlineCheckbox1">3</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="rate" id="4">
+                        <label class="form-check-label" for="inlineCheckbox1">4</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="rate" id="5" checked>
+                        <label class="form-check-label" for="inlineCheckbox1">5</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-floating col-md-6">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput"> Namamu</label>
+            </div>
+
+            <div class="form-floating col-md-6">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Email/ Akun Sosmedmu</label>
+            </div>
+
+            <div class="col-12" style="text-align: center; margin-top: 23px">
+                <label> Feedback </label><br>
+                <textarea style="border-radius: 10px; height: 100px; width: 300px; margin-top: 11px"
+                    placeholder="Kalo aku si Yes... Ga tau Mas Anang..." style="height: 100px" colls="20"
+                    rows="10"></textarea>
+            </div>
+            <br>
+
+            <div style="padding-top: 21px; text-align: center" class="col-12">
+                <button style="border-radius: 10px" type="submit" class="btn btn-danger">Submit</button>
+            </div>
+            <br>
+
+        </form>
+
+        <!-- FOOTER -->
+
+        <div class="footer-copyright">
+            <p style="text-align: center">2022 | Robbi
+                <br>
+                Jakarta, Indonesia.
+            </p>
+        </div>
+
+
+        <!-- AUDIO -->
+
+        <video hidden controls autoplay>
+            <source src="./Audio/bensound-relaxing.mp3" type="audio/mpeg">
+        </video>
+
+
+        <!-- STICKY WA -->
+
+        <link rel="stylesheet" style="width: 84px; height: 84px;"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/62855771144787" class="float" target="_blank">
+            <i style="font-size: 53px;" class="fa fa-whatsapp my-float"></i>
+        </a>
+
+    </div>
+
+    <!-- AUDIO -->
+
+    <script>mendeleyWebImporter = {
+            downloadPdfs(e, t) { return this._call('downloadPdfs', [e, t]); },
+            open() { return this._call('open', []); },
+            setLoginToken(e) { return this._call('setLoginToken', [e]); },
+            _call(methodName, methodArgs) {
+                const id = Math.random();
+                window.postMessage({ id, token: '0.4092264251322393', methodName, methodArgs }, 'https://file-examples-com.github.io');
+                return new Promise(resolve => {
+                    const listener = window.addEventListener('message', event => {
+                        const data = event.data;
+                        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+                        window.removeEventListener('message', listener);
+                        resolve(data.result);
+                    });
+                });
+            }
+        };</script>
+
+    <!-- MODAL Blog -->
+
+    <!-- Modal 1 -->
+
+    <div class="modal fade" id="blog1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Pengaplikasian Stoikisme</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="video1" style="width: 100%" width="560" height="315"
+                        src="https://www.youtube.com/embed/1mb2np3cMTY" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button id="close1" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const youtube = document.querySelector("#video1");
+        const close = document.querySelector("#close1");
+        const url = youtube.getAttribute("src");
+
+        const hideModal = () => {
+            youtube.setAttribute("src", "");
+            youtube.setAttribute("src", url);
+        }
+
+        close.addEventListener("click", () => {
+            hideModal()
+        })
+
+    </script>
+
+
+    <!-- Modal 2 -->
+
+    <div class="modal fade" id="blog2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Stoikisme</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="video2" style="width: 100%" width="560" height="315"
+                        src="https://www.youtube.com/embed/tgq_O8B-NhY" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button id="close2" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const youtube2 = document.querySelector("#video2");
+        const close2 = document.querySelector("#close2");
+        const url2 = youtube2.getAttribute("src");
+
+        const hideModal2 = () => {
+            youtube2.setAttribute("src", "");
+            youtube2.setAttribute("src", url2);
+        }
+
+        close2.addEventListener("click", () => {
+            hideModal2()
+        })
+
+    </script>
+
+    <!-- Modal 3 -->
+
+    <div class="modal fade" id="blog3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Stoikisme, Filosofi Anti Cemas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="video3" style="width: 100%" width="560" height="315"
+                        src="https://www.youtube.com/embed/v70vUiywj7Q" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button id="close3" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const youtube3 = document.querySelector("#video3");
+        const close3 = document.querySelector("#close3");
+        const url3 = youtube3.getAttribute("src");
+
+        const hideModal3 = () => {
+            youtube3.setAttribute("src", "");
+            youtube3.setAttribute("src", url3);
+        }
+
+        close3.addEventListener("click", () => {
+            hideModal3()
+        })
+
+    </script>
+
+    <!-- Modal 4 -->
+
+    <div class="modal fade" id="blog4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Stoikisme, Filosofi Anti Cemas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="video4" style="width: 100%" width="560" height="315"
+                        src="https://www.youtube.com/embed/15L0rNuor0Y" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button id="close4" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const youtube4 = document.querySelector("#video4");
+        const close4 = document.querySelector("#close4");
+        const url4 = youtube4.getAttribute("src");
+
+        const hideModal4 = () => {
+            youtube4.setAttribute("src", "");
+            youtube4.setAttribute("src", url4);
+        }
+
+        close4.addEventListener("click", () => {
+            hideModal4()
+        })
+
+    </script>
+
+    <!-- TRUNCATE -->
+
+    <script>
+
+        var charLimit = 100;
+
+        var numberOfToggled = document.getElementsByClassName('truncate');
+        for (i = 0; i < numberOfToggled.length; i++) {
+
+            var el = numberOfToggled[i];
+            var elText = el.innerHTML.trim();
+
+            if (elText.length > charLimit) {
+                var showStr = elText.slice(0, charLimit);
+                var hideStr = elText.slice(charLimit);
+                el.innerHTML = showStr + '<span class="morePoints">...</span> <span class="trimmed">' + hideStr + '</span>';
+                el.parentElement.innerHTML = el.parentElement.innerHTML + "<div class='read-more'><a href='#' class='more'></a>";
+            }
+
+        }
+
+        window.onclick = function (event) {
+            if (event.target.className == 'more') {
+                event.preventDefault();
+                event.target.parentElement.parentElement.classList.toggle('showAll');
+
+            }
+        }
+
+    </script>
+
+    <!-- HIDDEN MODAL -->
+
+    <script>
+
+        $('#blog4').on('shown.bs.modal', function () {
+            $('#video4')[0].play();
+        })
+
+        $('#blog4').on('hidden.bs.modal', function (e) {
+            $('#video4')[0].pause();
+        })
+
+        var vid = document.getElementById("blog4");
+        function playVid() { vid.play(); }
+
+    </script>
+
+</body>
+
+</html>
